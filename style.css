@@ -1,0 +1,113 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+/*
+main color : #087f5b
+grey color: #343a40
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling body and container */
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  background-color: #e6fcf5;
+  border-bottom: 8px solid #087f5b;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+.jumbotron {
+  margin-bottom: 64px;
+  padding: 24px;
+  background-color: #087f5b;
+  color: #fff;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 18px;
+}
+
+button,
+input {
+  font-size: 18px;
+}
+
+/* Forecast box styling */
+.forecast {
+  font-size: 16px;
+  text-align: center;
+}
+
+.bg-primary {
+  background-color: #087f5b !important;
+}
+
+.bg-primary .forecast {
+  border-radius: 8px;
+  padding: 16px;
+}
+
+/* History list styling */
+ul.list-group {
+  margin-top: 16px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+li:hover {
+  background-color: #6c757d;
+  cursor: pointer;
+}
+
+/* Search input styling */
+.input-group {
+  margin-bottom: 24px;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color: #087f5b;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #099268;
+}
+
+.btn:active {
+  background-color: #07654a;
+}
+
+input#search-city {
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #087f5b;
+}
